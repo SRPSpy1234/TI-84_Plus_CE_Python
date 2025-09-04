@@ -17,14 +17,4 @@ def show_divisibility_rules():
     for rule in rules:
         print(rule)
 
-# Simulate running the ":D:" code
-def run_code(code):
-    if code == ":d":
-        show_divisibility_rules()
-    else:
-        print("Unknown code.")
-
-# Example usage:
-if __name__ == "__main__":
-    user_code = input("Enter code to run: ")
-    run_code(user_code)
+show_divisibility_rules()
