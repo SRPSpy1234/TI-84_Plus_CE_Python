@@ -19,7 +19,7 @@ def show_divisibility_rules():
 
 # Simulate running the ":D:" code
 def run_code(code):
-    if code == ":D:":
+    if code == ":d":
         show_divisibility_rules()
     else:
         print("Unknown code.")
